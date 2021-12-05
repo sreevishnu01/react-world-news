@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-world-news/static/css/main.16008033.chunk.css",
+    "main.js": "/react-world-news/static/js/main.f88b4ba0.chunk.js",
+    "main.js.map": "/react-world-news/static/js/main.f88b4ba0.chunk.js.map",
+    "runtime-main.js": "/react-world-news/static/js/runtime-main.245d9b50.js",
+    "runtime-main.js.map": "/react-world-news/static/js/runtime-main.245d9b50.js.map",
+    "static/js/2.802ccc9b.chunk.js": "/react-world-news/static/js/2.802ccc9b.chunk.js",
+    "static/js/2.802ccc9b.chunk.js.map": "/react-world-news/static/js/2.802ccc9b.chunk.js.map",
+    "index.html": "/react-world-news/index.html",
+    "static/css/main.16008033.chunk.css.map": "/react-world-news/static/css/main.16008033.chunk.css.map",
+    "static/js/2.802ccc9b.chunk.js.LICENSE.txt": "/react-world-news/static/js/2.802ccc9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.245d9b50.js",
+    "static/js/2.802ccc9b.chunk.js",
+    "static/css/main.16008033.chunk.css",
+    "static/js/main.f88b4ba0.chunk.js"
+  ]
+}
