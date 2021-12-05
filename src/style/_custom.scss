@@ -1,0 +1,48 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+$theme-colors: (
+  "primary":    #3187ED,
+  "secondary":  #00C6D7,
+  "danger":     #ea1a0b,
+  "dark":       #000000,
+  "info": #F8F8F8,
+  
+);
+
+$white: #FFFFFF;
+$blue:  #3187ED;
+$black: #000000;
+$cyan :#00C6D7;
+$gray: #4D4D4D;
+$gray-light:#8D8D8D;
+$light: #F8F8F8;
+$light2: #DADADA;
+
+
+// 
+
+// "light":      $light,
+// "dark":       $dark
+// "success":    $success,
+// "info":       $info,
+// "warning":    $warning,
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+.card.reset{
+
+}
+.headline:hover{
+  background-color: $black;
+  color: $white;
+}
+.side-bar-img{
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
