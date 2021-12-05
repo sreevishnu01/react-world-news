@@ -13,7 +13,7 @@ function App() {
       <Topbar />
       <Switch>
         <Route path="/" exact component={Mainpage} />
-        <Route path="/news/:id" exact component={Singepage} />
+        <Route path="/news/:id" component={Singepage} />
       </Switch>
 
     </Router>
