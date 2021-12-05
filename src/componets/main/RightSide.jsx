@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Image } from 'react-bootstrap'
 import Post from './Post';
+import sideimg from '../../Assets/images/sides.png'
 
 function RightSide(props) {
     const { data } = props;
@@ -8,7 +9,7 @@ function RightSide(props) {
         <>
             <Row>
                 <Col md={0}>
-                    <Image src="https://picsum.photos/100/850" className="side-bar-img" />
+                    <Image src={sideimg} className="side-bar-img" />
                 </Col>
                 <Col lg={10}>
                     {data.slice(0, 3).map(p => (

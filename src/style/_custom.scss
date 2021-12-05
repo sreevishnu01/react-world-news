@@ -32,8 +32,28 @@ $light2: #DADADA;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+.topbar{
+  width: 100%;
+  height: 10rem;
+}
+.topbar-img{
+  width: 100%;
+  height: 10rem;
+}
 
-
+// card
+.card{
+  border: 1px solid $dark;
+}
+.side-bar-img{
+  height: 10rem;
+}
+.headline{
+  border-top: 1px solid $dark;
+}
+.headline-border{
+  border: 1px solid $dark;
+}
 .headline:hover{
   background-color: $black;
   color: $white;

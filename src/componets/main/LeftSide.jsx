@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Row, Image } from 'react-bootstrap'
 import Post from './Post';
+import sideimg from '../../Assets/images/sidep.png'
 
 function LeftSide(props) {
     const { data } = props;
@@ -14,7 +15,7 @@ function LeftSide(props) {
                     ))}
                 </Col>
                 <Col>
-                    <Image src="https://picsum.photos/100/850" className="side-bar-img" />
+                    <Image src={sideimg} className="side-bar-img" />
                 </Col>
             </Row>
 

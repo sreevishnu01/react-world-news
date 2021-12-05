@@ -1,16 +1,15 @@
 import React from 'react'
-import { Container, Card } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
+import topbarimg from '../Assets/images/topbaner.png'
 
 function Topbar() {
     return (
         <>
             <Container fluid className="m-0 p-0">
-                <Card className="bg-dark border-0 text-white position-relative">
-                    <Card.Img src="https://picsum.photos/1680/150" alt="Card image" />
-                    <Card.ImgOverlay>
-                        <Card.Title className="position-absolute fs-1 top-50 start-50 translate-middle">Wrold News</Card.Title>
-                    </Card.ImgOverlay>
-                </Card>
+                <div className="topbar">
+                    <Image src={topbarimg} fluid className="topbar-img" alt="non" />
+                </div>
+
             </Container>
         </>
     )

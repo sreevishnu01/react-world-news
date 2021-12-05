@@ -14,8 +14,8 @@ function Footer(props) {
                         <Row>
                             {data.slice(0, 2).map(p => (
                                 <Col key={p.id}>
-                                    <Card style={{ height: '10rem' }}>
-                                        <Card.Img variant="top" src="https://picsum.photos/350/100" className="side-bar-img" />
+                                    <Card >
+                                        <div className="side-bar-img"></div>
                                         <Card.Body className="headline">
                                             <Card.Title><Link to={`/news/${p.id}`} className="btn-link text-reset stretched-link" >{p.title}</Link></Card.Title>
                                         </Card.Body>

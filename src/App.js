@@ -16,6 +16,7 @@ function App() {
         <Route path="/news/:id" component={Singepage} />
       </Switch>
 
+
     </Router>
   );
 }
