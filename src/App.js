@@ -9,7 +9,7 @@ import Topbar from "./componets/Topbar";
 
 function App() {
   return (
-    <Router>
+    <Router >
       <Topbar />
       <Switch>
         <Route path="/" exact component={Mainpage} />

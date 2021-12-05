@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import Post from './Post'
+import { Link } from 'react-router-dom'
 
 function Footer(props) {
     const { data } = props;
@@ -16,7 +17,7 @@ function Footer(props) {
                                     <Card style={{ height: '10rem' }}>
                                         <Card.Img variant="top" src="https://picsum.photos/350/100" className="side-bar-img" />
                                         <Card.Body>
-                                            <Card.Title>{p.title}</Card.Title>
+                                            <Card.Title><Link to={`/news/${p.id}`} className="btn-link text-reset stretched-link" >{p.title}</Link></Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </Col>
