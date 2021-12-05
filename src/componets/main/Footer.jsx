@@ -16,7 +16,7 @@ function Footer(props) {
                                 <Col key={p.id}>
                                     <Card style={{ height: '10rem' }}>
                                         <Card.Img variant="top" src="https://picsum.photos/350/100" className="side-bar-img" />
-                                        <Card.Body>
+                                        <Card.Body className="headline">
                                             <Card.Title><Link to={`/news/${p.id}`} className="btn-link text-reset stretched-link" >{p.title}</Link></Card.Title>
                                         </Card.Body>
                                     </Card>

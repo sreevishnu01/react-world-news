@@ -8,7 +8,7 @@ function Topbar() {
                 <Card className="bg-dark border-0 text-white position-relative">
                     <Card.Img src="https://picsum.photos/1680/150" alt="Card image" />
                     <Card.ImgOverlay>
-                        <Card.Title className="position-absolute top-50 start-50 translate-middle">Wrold News</Card.Title>
+                        <Card.Title className="position-absolute fs-1 top-50 start-50 translate-middle">Wrold News</Card.Title>
                     </Card.ImgOverlay>
                 </Card>
             </Container>
