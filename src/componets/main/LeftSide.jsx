@@ -15,7 +15,7 @@ function LeftSide(props) {
                     ))}
                 </Col>
                 <Col>
-                    <Image src={sideimg} className="side-bar-img" />
+                    <Image src={process.env.PUBLIC_URL + '/images/pepole.png'} className="side-bar-img" />
                 </Col>
             </Row>
 

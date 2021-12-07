@@ -7,7 +7,8 @@ import Data from '../../Assets/Data'
 import Footer from './Footer'
 function Mainpage() {
     const { news } = Data;
-    console.log(news)
+    const post = news.find(id => id.id === 1)
+    console.log(post)
     return (
         <>
             <Container fluid className="mt-5">

@@ -9,10 +9,10 @@ function RightSide(props) {
         <>
             <Row>
                 <Col md={0}>
-                    <Image src={sideimg} className="side-bar-img" />
+                    <Image src={process.env.PUBLIC_URL + '/images/mount.png'} className="side-bar-img" />
                 </Col>
                 <Col lg={10}>
-                    {data.slice(0, 3).map(p => (
+                    {data.slice(3, 6).map(p => (
                         <Post post={p} />
                     ))}
                 </Col>

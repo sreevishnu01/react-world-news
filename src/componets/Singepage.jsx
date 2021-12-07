@@ -17,10 +17,10 @@ function Singepage() {
         <>
             <Container className="mt-5">
                 <Card key={post.id} className="mb-1">
-                    <Card.Img variant="top" src="https://picsum.photos/350/100" />
-                    <Card.Body className="headline">
-                        <Card.Title><Card.Link href={`/news/${post.id}`} className="btn-link text-reset stretched-link" >{post.title}</Card.Link></Card.Title>
-                        <Card.Text>{post.desciption}</Card.Text>
+                    <Card.Img variant="top" src={process.env.PUBLIC_URL + post.img} />
+                    <Card.Body >
+                        <Card.Title><Card.Link href={`/news/${post.id}`} className="btn-link text-reset stretched-link text-family fs-1" >{post.title}</Card.Link></Card.Title>
+                        <Card.Text dangerouslySetInnerHTML={{ __html: post.desciption }} className="text-family"></Card.Text>
                     </Card.Body>
                 </Card>
             </Container>

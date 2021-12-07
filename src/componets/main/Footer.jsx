@@ -12,10 +12,10 @@ function Footer(props) {
                     {/* left */}
                     <Col>
                         <Row>
-                            {data.slice(0, 2).map(p => (
+                            {data.slice(6, 8).map(p => (
                                 <Col key={p.id}>
                                     <Card >
-                                        <div className="side-bar-img"></div>
+                                        <Card.Img src={process.env.PUBLIC_URL + p.img} className="side-bar-img" />
                                         <Card.Body className="headline">
                                             <Card.Title><Link to={`/news/${p.id}`} className="btn-link text-reset stretched-link" >{p.title}</Link></Card.Title>
                                         </Card.Body>
@@ -26,7 +26,7 @@ function Footer(props) {
                     </Col>
                     {/* center */}
 
-                    {data.slice(0, 2).map(p => (
+                    {data.slice(8, 10).map(p => (
                         <Col>
                             <Post post={p} />
                         </Col>

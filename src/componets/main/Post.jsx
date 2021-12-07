@@ -8,9 +8,9 @@ function Post(props) {
     return (
         <>
             <Card key={post.id} className="mb-2">
-                <div className="side-bar-img"></div>
+                <Card.Img src={process.env.PUBLIC_URL + post.img} className="side-bar-img " />
                 <Card.Body className="headline">
-                    <Card.Title><Link to={`/news/${post.id}`} className="btn-link text-reset stretched-link" >{post.title}</Link></Card.Title>
+                    <Card.Title><Link to={`/news/${post.id}`} className="btn-link text-reset stretched-link text-family " >{post.title}</Link></Card.Title>
                 </Card.Body>
             </Card>
         </>
